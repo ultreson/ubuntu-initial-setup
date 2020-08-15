@@ -1,2 +1,3 @@
 #!/bin/bash
-sudo apt install -y vim curl byobu lynx python-pip thefuck mtr yum xbacklight openssh-server npm
+# minimum packages required on new ubuntu install
+sudo apt install -y vim curl neofetch

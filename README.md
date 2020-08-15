@@ -1,5 +1,7 @@
 # [ubuntu-initial-setup](https://github.com/ultreson/ubuntu-initial-setup)
 
+> [html version of this README](https://ultreson.github.io/ubuntu-initial-setup/)
+
  - enable local connections `sudo ufw allow from 192.168.0.0/16`
  - enable ssh `sudo ufw allow ssh`
  - `sudo apt update` _updates repositories_

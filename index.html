@@ -1,0 +1,35 @@
+<h1><a href="https://github.com/ultreson/ubuntu-initial-setup">ubuntu-initial-setup</a></h1>
+
+<ul>
+<li>enable local connections <code>sudo ufw allow from 192.168.0.0/16</code></li>
+<li>enable ssh <code>sudo ufw allow ssh</code></li>
+<li><code>sudo apt update</code> <em>updates repositories</em></li>
+<li><code>sudo apt dist-upgrade</code> <em>upgrades packages to latest version</em></li>
+<li><code>sudo apt install ubuntu-restricted-extras $(check-language-support)</code> <em>installs Microsoft fonts, extra media decoders and missing translations</em></li>
+<li>Install packages I need from under <a href="./packages.sh">packages.sh</a></li>
+<li>Start firefox
+<ul>
+<li>login to firefox sync</li>
+<li>enable bookmark bar</li>
+</ul></li>
+<li><code>sudo snap install --classic code</code> <em>installs <a href="https://code.visualstudio.com/docs/setup/linux">VSCode</a></em></li>
+<li>SSH
+<ul>
+<li><a href="https://gist.github.com/ultreson/a614b7dc09ba32dd2dc2484e975ed947">Install headless x server for remote windows</a></li>
+<li>Reserve IP address in my router's DHCP config to keep it static within my local network</li>
+<li>add new server to ~/.ssh/config of my main computer <a href="https://stackoverflow.com/questions/58957203/how-do-we-remove-ssh-targets-from-remote-explorer"><em>Resource on where to find this file found here</em></a></li>
+<li>Install VSCode remote server for access via SSH (via VSCode on main computer)</li>
+</ul></li>
+<li>git
+<ul>
+<li><a href="https://gist.github.com/robkorv/592b46e8ff9742d74ca4a3f894857dee">generate ssh</a> -> <a href="https://github.com/settings/ssh">add ssh github</a>, <a href="https://gitlab.com/profile/keys">add ssh gitlab</a></li>
+<li><code>git config --global user.name "ultreson"</code> -> <code>git config --global user.email "ultreson@outlook.com"</code> -> <code>git config --global core.editor vim</code></li>
+</ul></li>
+</ul>
+
+<h2>References</h2>
+
+<ul>
+<li><a href="https://github.com/robkorv/ubuntu-post-install-todo">robkorv/ubuntu-post-install-todo</a></li>
+<li><a href="https://gist.github.com/vietlq/8b20d09fdfe5f02f8b511c7847df39ee">Code2Pro: How to Forward X11 to Windows 10 via PuTTY &amp; vcxsrv</a></li>
+</ul>

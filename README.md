@@ -18,7 +18,7 @@
     - add new server to ~/.ssh/config of my main computer [_Resource on where to find this file found here_](https://stackoverflow.com/questions/58957203/how-do-we-remove-ssh-targets-from-remote-explorer)
     - Install VSCode remote server for access via SSH (via VSCode on main computer)
  - git
-    - [generate ssh](https://gist.github.com/robkorv/592b46e8ff9742d74ca4a3f894857dee) -> [add ssh github](https://github.com/settings/ssh), [add ssh gitlab](https://gitlab.com/profile/keys)
+    - [generate ssh](https://gist.github.com/ultreson/98c6d47ca005ad598c8a05dcc71d98a6) -> [add ssh github](https://github.com/settings/ssh), [add ssh gitlab](https://gitlab.com/profile/keys)
     - `git config --global user.name "ultreson"` -> `git config --global user.email "ultreson@outlook.com"` -> `git config --global core.editor vim`
 
 ## References

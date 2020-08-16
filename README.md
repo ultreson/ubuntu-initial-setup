@@ -2,8 +2,8 @@
 
 > [html version of this README](https://ultreson.github.io/ubuntu-initial-setup/)
 
- - enable local connections `sudo ufw allow from 192.168.0.0/16`
- - enable ssh `sudo ufw allow ssh`
+ - `sudo ufw allow from 192.168.0.0/16` _enable local connections_
+ - `sudo ufw allow ssh` _enable ssh_
  - `sudo apt update` _updates repositories_
  - `sudo apt dist-upgrade` _upgrades packages to latest version_
  - `sudo apt install ubuntu-restricted-extras $(check-language-support)` _installs Microsoft fonts, extra media decoders and missing translations_

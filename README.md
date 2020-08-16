@@ -19,7 +19,7 @@
     - Install VSCode remote server for access via SSH (via VSCode on main computer)
  - git
     - [generate ssh](https://gist.github.com/ultreson/98c6d47ca005ad598c8a05dcc71d98a6) -> [add ssh github](https://github.com/settings/ssh), [add ssh gitlab](https://gitlab.com/profile/keys)
-    - `git config --global user.name "ultreson"` -> `git config --global user.email "ultreson@outlook.com"` -> `git config --global core.editor vim`
+    - `git config --global user.name "ultreson"` -> `git config --global user.email "ultreson@outlook.com"` -> `git config --global core.editor vim` -> `git config credential.helper store`
 
 ## References
 
